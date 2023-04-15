@@ -126,7 +126,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("assets/img/_DSC1095.jpg") top center;
+  background: url("../img/bg.png") top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
